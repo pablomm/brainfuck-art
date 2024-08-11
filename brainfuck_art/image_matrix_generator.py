@@ -7,7 +7,7 @@ from .brainfuck_generation import text_to_bf
 
 __all__ = ["image_to_matrix"]
 
-DEFAULT_ALPHABET = r"%$&/()=!|\\º#*Çª;¨{}"
+DEFAULT_ALPHABET = r"%$&/()=!|\\º#*Çª;{}"
 
 ImageType = Union[Image.Image, str, Path]
 
@@ -59,7 +59,7 @@ def get_color_matrix(image: ImageType, width: int = 512, height: int = 512) -> n
     :return: A 2D NumPy array of strings containing hex color values.
     """
     image = read_image(image=image)
-    image = image.resize((width, height), Image.ANTIALIAS).convert('RGB')
+    image = image.resize((width, height), resample=Image.Resampling.LANCZOS).convert('RGB')
 
     rgb_array = np.array(image)
     hex_array = np.array([f'#{r:02x}{g:02x}{b:02x}' for r, g, b in rgb_array.reshape(-1, 3)])
@@ -90,6 +90,8 @@ def get_text_matrix(
     if hidden_text is not None:
         # Sample len(hidden_text) positions to replace with hidden_text
         positions = np.random.choice(width*height, size=len(hidden_text), replace=False)
+        # Sort the positions to insert the hidden text in order
+        positions = np.sort(positions)
         for i, pos in enumerate(positions):
             base_text[pos] = hidden_text[i]
 
