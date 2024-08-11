@@ -1,10 +1,4 @@
 import unittest
-import sys
-import os
-
-# Add the parent directory to the PYTHONPATH
-parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, parent_dir)
 
 from brainfuck_art.brainfuck_generation import bf_num, bf_mult, bf_tuple, bf_print, text_to_bf, triple
 from brainfuck_art.brainfuck_interpreter import execute_bf
