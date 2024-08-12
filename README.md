@@ -5,7 +5,7 @@
 
 Brainfuck Art is a Python library developed as a hobby project for generating images with hidden Brainfuck code. Inspired by htmlfuck, the library provides functionality to encode text into Brainfuck, convert images to ASCII art, and export the output in HTML, SVG, or PDF formats.
 
-![Coffee](./docs/assets/coffee.svg)
+[![Coffee](./docs/assets/coffee.svg)](![./docs/assets/coffee.svg?raw=True](https://raw.githubusercontent.com/pablomm/brainfuck-art/main/docs/assets/coffee.svg))
 
 ## Example
 
