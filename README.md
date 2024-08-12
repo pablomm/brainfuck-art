@@ -1,7 +1,7 @@
 # Brainfuck Art
 
 ![Python Versions](https://img.shields.io/badge/python-3.9%20|%203.10%20|%203.11%20|%203.12-blue)
-
+![Test Status](https://github.com/pablomm/brainfuck-art/actions/workflows/tests.yml/badge.svg)
 
 Brainfuck Art is a Python library developed as a hobby project for generating images with hidden Brainfuck code. Inspired by htmlfuck, the library provides functionality to encode text into Brainfuck, convert images to ASCII art, and export the output in HTML, SVG, or PDF formats.
 
