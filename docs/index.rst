@@ -17,8 +17,12 @@ Welcome to Brainfuck Art's documentation!
 .. image:: https://readthedocs.org/projects/brainfuck-art/badge/?version=latest
     :target: https://brainfuck-art.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
+.. image:: https://img.shields.io/pypi/v/brainfuck-art.svg
+   :target: https://pypi.org/project/brainfuck-art/
+   :alt: PyPI version
+
       
-      
+
 **Brainfuck Art** is a Python library developed as a hobby project for generating images with hidden Brainfuck code. Inspired by `htmlfuck <https://github.com/pablomm/htmlfuck>`_, the library provides functionality to encode text into Brainfuck, convert images to ASCII art, and export the output in HTML, SVG, or PDF formats.
 
 .. image:: https://raw.githubusercontent.com/pablomm/brainfuck-art/main/docs/assets/coffee.svg
