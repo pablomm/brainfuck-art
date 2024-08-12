@@ -2,7 +2,7 @@
 
 ![Python Versions](https://img.shields.io/badge/python-3.9%20|%203.10%20|%203.11%20|%203.12-blue)
 ![Test Status](https://github.com/pablomm/brainfuck-art/actions/workflows/tests.yml/badge.svg)
-[![Documentation Status](https://readthedocs.org/projects/brainfuck-art/badge/?version=latest)](https://brainfuck-art.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/brainfuck-art/badge/?version=latest)](https://brainfuck_art.readthedocs.io/en/latest/?badge=latest)
 [![PyPI version](https://img.shields.io/pypi/v/brainfuck-art.svg)](https://pypi.org/project/brainfuck-art/)
 
 
@@ -30,7 +30,7 @@ You can download this example as pdf [Coffee-pdf](./docs/assets/coffee.pdf?raw=T
 To install Brainfuck Art, ensure you have Python 3.9 or higher, and run:
 
 ```bash
-pip install brainfuck-art
+pip install brainfuck_art
 ```
 
 ## Command-Line Usage

@@ -17,8 +17,8 @@ Welcome to Brainfuck Art's documentation!
 .. image:: https://readthedocs.org/projects/brainfuck-art/badge/?version=latest
     :target: https://brainfuck-art.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
-.. image:: https://img.shields.io/pypi/v/brainfuck-art.svg
-   :target: https://pypi.org/project/brainfuck-art/
+.. image:: https://img.shields.io/pypi/v/brainfuck_art.svg
+   :target: https://pypi.org/project/brainfuck_art/
    :alt: PyPI version
 
       
@@ -53,7 +53,7 @@ To install Brainfuck Art, ensure you have Python 3.9 or higher, and run:
 
 .. code-block:: bash
 
-   pip install brainfuck-art
+   pip install brainfuck_art
 
 Command-Line Usage
 ------------------
