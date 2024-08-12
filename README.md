@@ -95,5 +95,3 @@ You can also save the output in PDF or HTML formats using the same approach.
 ## License
 
 Brainfuck Art is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
