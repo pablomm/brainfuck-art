@@ -30,7 +30,7 @@ You can download this example as pdf [Coffee-pdf](./docs/assets/coffee.pdf?raw=T
 To install Brainfuck Art, ensure you have Python 3.9 or higher, and run:
 
 ```bash
-pip install brainfuck_art
+pip install brainfuck-art
 ```
 
 ## Command-Line Usage
