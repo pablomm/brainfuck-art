@@ -15,8 +15,7 @@ dependencies = [
     "reportlab",
 ]
 authors = [
-    {name="Pablo Marcos-Manchón", role="Author"},
-    {name="pablomm", role="GitHub"},
+    {name="Pablo Marcos-Manchón", email="pmarcos@ub.edu"}
 ]
 keywords = [
     "brainfuck",
