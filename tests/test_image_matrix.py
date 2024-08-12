@@ -2,7 +2,7 @@ import unittest
 import numpy as np
 from PIL import Image
 
-from brainfuck_art.image_matrix_generator import image_to_matrix, DEFAULT_ALPHABET
+from brainfuck_art.image_processing import image_to_matrix, DEFAULT_ALPHABET
 from brainfuck_art.brainfuck_interpreter import execute_bf
 
 class TestImageToMatrix(unittest.TestCase):
