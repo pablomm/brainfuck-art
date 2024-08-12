@@ -6,6 +6,8 @@ from .color_utils import get_lighter_text_color
 if TYPE_CHECKING:
     import numpy as np
 
+__all__ = ["save_matrix_to_html"]
+
 def save_matrix_to_html(
     text_matrix: "np.ndarray",
     color_matrix: "np.ndarray",
