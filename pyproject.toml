@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brainfuck_art"
+description = "A Python library to generate Brainfuck code, convert images to ASCII art, and create PDFs or HTML outputs."
+requires-python = ">=3.7"
+license = {text = "MIT"}
+dynamic = ["version", "readme"]
+dependencies = [
+    "Pillow",
+    "numpy",
+    "svglib",
+    "reportlab",
+]
+authors = [
+    {name="Your Name", email="your.email@example.com"}
+]
+keywords = [
+    "brainfuck",
+    "ASCII art",
+    "image processing",
+    "PDF generation",
+    "HTML generation",
+    "programming languages",
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing",
+    "Topic :: Multimedia :: Graphics",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[project.urls]
+repository = "https://github.com/pablomm/brainfuck-art/"
+
+[tool.setuptools.packages.find]
+include = ["brainfuck_art*"]
+
+[tool.setuptools.dynamic]
+version = {attr = "brainfuck_art.__version__.__version__"}
+readme = {file = ["README.md"], content-type = "text/markdown"}
