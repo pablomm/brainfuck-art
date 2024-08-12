@@ -7,7 +7,7 @@ from .brainfuck_generation import text_to_bf
 
 __all__ = ["image_to_matrix"]
 
-DEFAULT_ALPHABET = r"%$&/()=!|\\º#*Çª;{}"
+DEFAULT_ALPHABET = r"%$&/()¿?=!|\\º#*ª;{}"
 
 ImageType = Union[Image.Image, str, Path]
 
